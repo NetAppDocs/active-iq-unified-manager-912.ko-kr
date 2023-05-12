@@ -775,7 +775,6 @@
   <block id="90ef461f23841e1c3dc26580247959fd" category="list-text">최소 할당: "할당된 공간" 또는 "사용된 공간"을 사용하여 최대 처리량(피크) IOPS를 결정합니다.</block>
   <block id="f6d81ff30a84faf845ece49601784b0a" category="list-text">예상 지연 시간: 스토리지 입출력 작업에 대해 예상되는 평균 지연 시간입니다.</block>
   <block id="a4918d1e2d3364601712640b61668ac3" category="list-text">공유: 기존 QoS 정책의 경우 정책 그룹에 정의된 처리량 값이 여러 오브젝트 간에 공유되는지 여부입니다.</block>
-  <block id="3e8dedd9367cf7dda99efa4648b40a68" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수입니다. QoS 정책 그룹 이름 옆의 확장 단추( )를 클릭하여 정책 그룹에 대한 자세한 정보를 볼 수 있습니다.</block>
   <block id="3cd90a107dd83598c6f4b8687b8ad89e" category="list-text">Allocated Capacity: QoS 정책 그룹에 있는 오브젝트가 현재 사용하고 있는 공간의 크기입니다.</block>
   <block id="b0ce459d424ac8a8bf4972ced4fa34af" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수로, 볼륨 및 LUN으로 구분됩니다. 번호를 클릭하여 선택한 볼륨 또는 LUN에 대한 자세한 정보를 제공하는 페이지로 이동할 수 있습니다.</block>
   <block id="164468e54e30a0519a3dbef0f4a929a6" category="inline-link-macro">QoS 정책 그룹 정보를 사용하여 성능 관리</block>
@@ -3481,7 +3480,6 @@
   <block id="ec42faa3ead49a8b30ba8625345423b8" category="paragraph">모니터링되는 클러스터의 목록이 표시됩니다.</block>
   <block id="5627136cfa219c91be032bfe00b32183" category="list-text">상태: 모든 클러스터 * 보기에서 MetroCluster 복제 세부 정보를 보려는 클러스터의 이름을 클릭합니다. 클러스터/상태 세부 정보 * 페이지에서 * MetroCluster 복제 * 탭을 클릭합니다.</block>
   <block id="97e6ec6e4baff4ed6d4035d75d3c5ddd" category="paragraph">복제할 MetroCluster 구성의 토폴로지는 데이터가 미러링되는 원격 사이트에 대한 정보와 함께 해당 클러스터 개체 영역의 로컬 사이트에 표시됩니다. 아이콘 위로 포인터를 이동하면 생성된 이벤트에 대한 자세한 정보를 볼 수 있습니다.</block>
-  <block id="bcd77e19082ab48b2d951080763c8616" category="paragraph">에 표시된 정보를 사용하여 복제 문제를 해결할 수 있습니다. MetroCluster 구성에서 미러링 문제를 발견한 경우, System Manager에 로그인하거나 ONTAP CLI에 액세스하여 문제를 해결해야 합니다.</block>
   <block id="38674b9db4ed0276a9c44646f4cf5741" category="list-text">Unified Manager 서비스 및 관련 MySQL 소프트웨어를 표시된 순서대로 중지합니다.<block ref="4e7847326e90b1f0063c89995d7982a7" prefix=" " category="inline-code"></block></block>
   <block id="00a0d3827fe90016d54a587539a1bb1f" category="paragraph"><block ref="3ea411a881e8de6734ab1f259a5102ce" prefix="" category="inline-code"></block></block>
   <block id="43e95b1db661f25b270f2cb998751a9c" category="list-text">를 실행합니다<block ref="5203f21db9e105b1e8c04b88735772ca" prefix=" " category="inline-code"></block> 백업 디렉토리에 대한 SE Linux 유형을 설정하는 명령:</block>
@@ -11903,4 +11901,7 @@
   <block id="3af868c1abe702694a4c968a4cef3420" category="list-text">정책 그룹을 생성합니다.</block>
   <block id="fbb65b23c43fdbaf045d7005e50554de" category="list-text">정책 그룹에서 워크로드를 추가하거나 제거합니다.</block>
   <block id="4b8e97b0469700a862a32765111381fa" category="list-text">정책 그룹 간에 워크로드를 이동합니다.</block>
+  <block id="db3375d7decfbb29e343dc2213616878" category="paragraph">클러스터/상태 세부 정보 페이지에 표시된 정보를 사용하여 복제 문제를 해결할 수 있습니다. MetroCluster 구성에서 미러링 문제를 발견한 경우, System Manager에 로그인하거나 ONTAP CLI에 액세스하여 문제를 해결해야 합니다.</block>
+  <block id="c438f7aec6602f34fb279fdfb89b02c7" category="list-text">Associated Objects: QoS 정책 그룹에 할당된 워크로드 수입니다. 확장 단추(<block ref="5bc06105dc11797d871e45be810a1285" category="inline-image-macro-rx" type="image"></block>) QoS 정책 그룹 이름 옆에 있는 을 클릭하여 정책 그룹에 대한 자세한 정보를 봅니다.</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">Windows 관리자로 PowerShell 또는 명령 프롬프트를 시작합니다.</block>
 </blocks>
