@@ -42,6 +42,7 @@
   <link rel="alternate" hreflang="de" href="https://docs.netapp.com/de-de/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="es" href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel="alternate" hreflang="fr" href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
+  <link rel="alternate" hreflang="it" href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" />
   <link rel='stylesheet' href='/ko-kr/active-iq-unified-manager-912/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
     function addAdobeLaunch(adobeId) {
       var head = document.getElementsByTagName('head')[0];
@@ -214,7 +215,7 @@
     </li>
     
   </ul>
-</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/issues/new?body=Page%3A%20[클러스터 추가](https://docs.netapp.com/ko-kr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html)&template=public-issue-template.md" class="page-nav-contribute-link" role="button"><img src="/ko-kr/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+</div><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912.ko-kr/issues/new?template=new-from-page.yml&page-url=https://docs.netapp.com/ko-kr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html&page-title=클러스터 추가" class="page-nav-contribute-link" role="button"><img src="/ko-kr/active-iq-unified-manager-912/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/active-iq-unified-manager-912/blob/main/storage-mgmt/task_add_clusters.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/active-iq-unified-manager-912/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/active-iq-unified-manager-912/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -307,8 +308,8 @@
           data-did-you-mean="{suggestion}을(를) 검색해보십시오."
           data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?"
           data-results-found="{hitCount}개의 결과를 찾음"
-          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
-          data-error-reset="Reset Search"
+          data-error-message="죄송합니다. 결과를 가져오는 도중 문제가 발생했습니다. 다시 시도해 주십시오."
+          data-error-reset="검색 재설정"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -349,6 +350,8 @@
           <a href="https://docs.netapp.com/es-es/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Español</span></a>
         </li><li>
           <a href="https://docs.netapp.com/fr-fr/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Français</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/it-it/active-iq-unified-manager-912/storage-mgmt/task_add_clusters.html" target="_self"><span translate="no" class="notranslate">Italiano</span></a>
         </li></ul>
     </div>
     <!-- End Language Selector -->
@@ -11444,7 +11447,7 @@
 <p class="page-details">
   
     
-    <time datetime="2023-05-18 18:27:59 +0000">05/18/2023</time>
+    <time datetime="2023-05-23 20:25:38 +0000">05/23/2023</time>
     
   
 
@@ -11520,10 +11523,10 @@
 </div>
 </li>
 <li>
-<p>클라이언트 인증서 *: ONTAP로부터 수신한 EMS 메시지에 대한 인증 중에 사용됩니다. 이 인증서는 ONTAP에서 소유하며 ONTAP 클러스터를 Unified Manager에 추가할 때 필요합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 클라이언트 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 그러나 이미 추가된 클러스터에 대해 이 인증서가 만료되어 Unified Manager에서 사용 중인 경우 EMS 메시징은 만료된 인증서에서 계속 작동합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오 https://["System Manager 사용자 인터페이스에서 ONTAP 자체 서명된 인증서를 갱신하는 방법"^].</p>
+<p>클라이언트 인증서 *: ONTAP로부터 수신한 EMS 메시지에 대한 인증 중에 사용됩니다. 이 인증서는 ONTAP에서 소유하며 ONTAP 클러스터를 Unified Manager에 추가할 때 필요합니다. 만료된 인증서가 있는 클러스터는 Unified Manager에 추가할 수 없으며, 클라이언트 인증서가 이미 만료된 경우 클러스터를 추가하기 전에 다시 생성해야 합니다. 그러나 이미 추가된 클러스터에 대해 이 인증서가 만료되어 Unified Manager에서 사용 중인 경우 EMS 메시징은 만료된 인증서에서 계속 작동합니다. 인증서 생성에 대한 자세한 내용은 기술 자료(KB) 문서를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9" target="_blank" rel="noopener">"System Manager 사용자 인터페이스에서 ONTAP 자체 서명된 인증서를 갱신하는 방법"</a>.</p>
 </li>
 <li>
-<p>Unified Manager의 단일 인스턴스에서 특정 수의 노드를 지원할 수 있습니다. 지원되는 노드 수를 초과하는 환경을 모니터링해야 하는 경우, 일부 클러스터를 모니터링하려면 Unified Manager의 추가 인스턴스를 설치해야 합니다. 지원되는 노드 수 목록을 보려면 를 참조하십시오 https://["Unified Manager 모범 사례 가이드"^].</p>
+<p>Unified Manager의 단일 인스턴스에서 특정 수의 노드를 지원할 수 있습니다. 지원되는 노드 수를 초과하는 환경을 모니터링해야 하는 경우, 일부 클러스터를 모니터링하려면 Unified Manager의 추가 인스턴스를 설치해야 합니다. 지원되는 노드 수 목록을 보려면 를 참조하십시오 <a href="https://www.netapp.com/media/13504-tr4621.pdf" target="_blank" rel="noopener">"Unified Manager 모범 사례 가이드"</a>.</p>
 </li>
 </ul>
 </div>
